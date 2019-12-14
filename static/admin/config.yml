@@ -1,12 +1,12 @@
 backend:
-  name: test-repo
+  name: github
+  repo: andykao1213/CT_Blog
 
 media_folder: static/assets
 public_folder: assets
 
 collections:
   - name: github
-    repo: CT_Blog
     label: Blog
     folder: content/blog
     create: true
