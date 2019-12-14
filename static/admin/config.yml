@@ -5,7 +5,8 @@ media_folder: static/assets
 public_folder: assets
 
 collections:
-  - name: blog
+  - name: github
+    repo: CT_Blog
     label: Blog
     folder: content/blog
     create: true
