@@ -4,9 +4,9 @@ module.exports = {
     title: `C.T. Blog`,
     author: `Andrew Kao`,
     description: `Personal blog of a software engineer.`,
-    siteUrl: `https://gatsby-starter-blog-demo.netlify.com/`,
+    siteUrl: `https://ctblog.netlify.app/blog/`,
     social: {
-      twitter: `kylemathews`,
+      twitter: `tse_chuan`,
     },
   },
   plugins: [
