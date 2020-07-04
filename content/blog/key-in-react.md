@@ -90,15 +90,15 @@ key 最主要的作用是在 Reconcilation 時，去判斷這次 state change �
 但 React 會以 `key` 判斷是否為同一個 element，因此 React 的模型會是這樣：
 
 ```diff
--	 <ListItem key={0} label="Andy" />
-+  <ListItem key={0} label="Elva" />
--	 <ListItem key={1} label="Bob" />
-+	 <ListItem key={1} label="Andy" />
--	 <ListItem key={2} label="Cindy" />
-+	 <ListItem key={2} label="Bob" />
--	 <ListItem key={3} label="David" />
-+	 <ListItem key={3} label="Cindy" />
-+	 <ListItem key={4} label="David" />
+- <ListItem key={0} label="Andy" />
++ <ListItem key={0} label="Elva" />
+- <ListItem key={1} label="Bob" />
++ <ListItem key={1} label="Andy" />
+- <ListItem key={2} label="Cindy" />
++ <ListItem key={2} label="Bob" />
+- <ListItem key={3} label="David" />
++ <ListItem key={3} label="Cindy" />
++ <ListItem key={4} label="David" />
 ```
 
 對 React 來說，不是在頭的地方加入 `Elva` ，而是 `Andy` 改叫 `Elva` ， `Bob` 改叫 `Andy` 以此類推
